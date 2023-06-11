@@ -1,0 +1,54 @@
+/*Inheritance*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/*Select multiple elements*/
+header,footer {
+    background-color: rgb(206, 249, 236);
+}
+
+/*Class selector*/
+.site-title {
+   color: rgb(237, 14, 125);
+}
+
+/*Id selector*/
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/*Changing bullet type */
+ul.hobbies{
+    list-style-type: square;
+}
+
+/*:nth-child selector*/
+ul.hobbies li:nth-child(odd){
+    background-color: beige;
+}
+
+/*Removing bullet, Removing the underline*/
+ul.navigation li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Change link styling*/
+/*Add a background and border to the links*/
+
+ul.navigation a{
+    text-decoration: none;
+    background-color: rgb(192, 142, 238);
+    border: 2px solid black;
+}
+
+/*Change the background colour on hover*/
+ul.navigation a:hover{
+    background-color: rgb(234, 158, 206);
+}
