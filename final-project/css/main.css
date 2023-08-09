@@ -17,7 +17,9 @@ header {
 
 .logo {
     display: flex;
-    align-items: center;
+    align-items: center;    
+    width: auto;
+
 }
 
 header form {
@@ -246,8 +248,10 @@ form textarea {
     margin: 10px 0;
 }
 
-th, td {
+table, th, td {
+    border: 1px solid black;
     border-collapse: collapse;
+    padding: 10px;
 }
 
 
@@ -256,7 +260,15 @@ table {
 }
 
 tr:first-child {
-    background-color: #C78B07;
+    background-color: #ffe6ac;
+}
+
+.contact3 {
+    margin: 1rem 0;
+}
+
+iframe {
+    width: 100%;
 }
 
 /*
