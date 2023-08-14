@@ -287,3 +287,23 @@ footer {
     color: #C78B07;
     padding: 10px 30px;
 }
+
+@media screen and (min-width: 47.5rem){
+
+    header .wrapper {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+      }
+
+    .container-team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .team2 {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+}
+
