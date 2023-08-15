@@ -53,10 +53,10 @@ ul li {
 
 header nav ul li a:link,
 header nav ul li a:visited {
-    background-color: black;
+    /*background-color: black;*/
     color: #C78B07;
     text-decoration: none;
-    display: inline-table;
+    display: inline-block;
     width: 100%;
     text-align: center;
     padding: 20px 0;
@@ -294,8 +294,8 @@ footer {
 }
 
 @media screen and (min-width: 47.5rem){
-    /*header li {
-        display: inline;
+    header li {
+        list-style-type: none;
         padding: 1rem 1rem;
     }
     header {
@@ -332,7 +332,10 @@ footer {
         text-decoration: none;
         padding: 1rem;
     }
-*/
+
+
+
+
     .about-us {
         display: grid;
         grid-template-columns: 1fr 1fr;
