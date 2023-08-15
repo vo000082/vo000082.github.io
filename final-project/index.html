@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <!--reset-->
-    <link rel="stylesheet" href="css/reset.css">
+    <!--try to applied reset but affected the main css, not present like expected-->
+    <!--<link rel="stylesheet" href="css/reset.css">-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="stylesheet" href="css/main.css">
     
@@ -24,20 +24,20 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-
+            <div class="search">
             <form action="/search" method="get">
                 <input type="search" id="searchQuery" name="q" placeholder="Search">
                 <button type="submit" class="material-symbols-outlined search-icon">search</button>           
-            </form>
+            </form></div>
         </div> 
     </header>
 
 
     <main>
         <section id="welcome">
-            <div class="wrapper welcome">
+            <div class="welcome">
               <div class="transbox">
-                <h1>Welcome to Three Star Media</h1>
+                    <h1>Welcome to Three Star Media</h1>
 
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia enim illo dolorem architecto maiores dolor vel omnis voluptatum nemo sed ea odio eum similique, tenetur praesentium velit aut dignissimos nihil.</p>
 
@@ -48,18 +48,26 @@
 
         <section id="about-us">
             <div class="wrapper about-us">
-                <img class="pic" src="images/about-us.jpg" alt="picture of a ping-pong table in an office with open space concept">
+                <div>
+                    <img class="pic" src="images/about-us.jpg" alt="picture of a ping-pong table in an office with open space concept">
+                </div>
 
-                <h2>About Us</h2>
+                <div>
+                    
+                    <h2>About Us</h2>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim ratione fugiat necessitatibus facilis officiis? Doloribus voluptatibus magnam exercitationem fugiat aperiam veritatis, incidunt repellat. Sunt blanditiis dolore illo voluptatibus quisquam.</p>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim ratione fugiat necessitatibus facilis officiis? Doloribus voluptatibus magnam exercitationem fugiat aperiam veritatis, incidunt repellat. Sunt blanditiis dolore illo voluptatibus quisquam.</p>
 
-                    <p>Repellat, ex possimus dolorum repellendus animi, aliquid dicta dolores quam porro, doloremque expedita. Quod quos libero nostrum nulla quasi sapiente fugit, accusantium reprehenderit eveniet quis. Distinctio doloremque quam placeat illo.</p>
+                        <p>Repellat, ex possimus dolorum repellendus animi, aliquid dicta dolores quam porro, doloremque expedita. Quod quos libero nostrum nulla quasi sapiente fugit, accusantium reprehenderit eveniet quis. Distinctio doloremque quam placeat illo.</p>
+
+                    </div>
+                </div>
             </div>
         </section>   
 
         <section id="services">
-            <div class="wrapper services">
+            <div class="wrapper">
                 <h2>Our Services</h2>
                     <div class="services">
 
@@ -71,7 +79,6 @@
     
                                 <div class="button-black"><a href="digital-plans.html">Digital Plans<span class="material-symbols-outlined arrow-right-icon">arrow_right</span></a></div>
                             </div>
-    
                         </div>
     
                         <div class="services-background">
@@ -84,7 +91,6 @@
     
                                 <div class="button-black"><a href="marketing-plans.html">Marketing Plans<span class="material-symbols-outlined arrow-right-icon">arrow_right</span></a></div>
                             </div>
-    
                         </div>
                         
                         <div class="services-background">
@@ -143,24 +149,24 @@
                 <h2>Our Team</h2>
                 <div class="container-team">
 
-                    <div>
-                        <div class="team1">
+                    <div class="test">
+                        <div class="team">
                             <img class="pic" src="images/john.jpg" alt="picture of a man named john, who is short hair, in his 20s and in his colorful t-shirt">
                         </div>
 
-                        <div class="team2">
+                        <div class="team">
                             <h3>John Doe</h3>
                             <h4>CEO and Co-owner</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ipsam quam  ad molestiae recusandae saepe in eius quod, nam consectetur nostrum aperiam blanditiis sunt, ut eum nulla obcaecati, deleniti doloribus!</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div class="team4">
+                    <div class="test">
+                        <div class="team">
                             <img class="pic" src="images/bob.jpg" alt="picture of a man named bob, who wears glasses, has bear and in his checked shirt">
                         </div>   
     
-                        <div class="team3">
+                        <div class="team">
                             <h3>Bob Rite</h3>
                             <h4>CFO and Co-owner</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ipsam quam ad molestiae recusandae saepe in eius quod, nam consectetur nostrum aperiam blanditiis sunt, ut eum nulla obcaecati, deleniti doloribus!</p>
