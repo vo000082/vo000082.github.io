@@ -74,7 +74,7 @@ header nav ul li a:focus {
     background-image: url("../images/vision.jpg");
     color: white;
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
  
 }
@@ -344,7 +344,7 @@ footer {
 
     .services {
         display: grid;
-        grid-template-columns: repeat (6,1fr) ;
+        grid-template-columns: repeat(6,1fr) ;
         gap: 1rem;
         justify-content: center;
         align-content: center;
@@ -380,7 +380,8 @@ footer {
     align-items: center;
     padding: 1rem 1rem;
     padding-left: 29%;
-}
+    }
+
 
     .test {
         display: flex;
